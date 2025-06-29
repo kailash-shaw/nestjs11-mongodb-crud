@@ -7,7 +7,7 @@ import { UserModule } from './user/user.module';
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),
     DatabaseModule,
-    UserModule,
-  ],
+    UserModule
+  ]
 })
 export class AppModule {}
